@@ -73,10 +73,16 @@
 			<optional>true</optional>
 		</dependency>
 
-		<!-- Testing: JUnit 5, Mockito, MockMvc, AssertJ -->
+		<!-- Testing: JUnit 5, Mockito, AssertJ -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<!-- MockMvc & Web slice test support in Spring Boot 4 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>

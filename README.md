@@ -34,7 +34,7 @@ src/main/java/com/nexus/commerce/
 - [x] **Project Foundation:** Spring Boot 4.1.1 on Java 21 LTS with Maven Wrapper.
 - [x] **Interactive Documentation:** OpenAPI 3 & Swagger UI at /swagger-ui.html.
 - [x] **Health & Monitoring:** Spring Boot Actuator endpoints enabled.
-- [ ] **Dynamic Catalog Search:** Multi-criteria filtering (price range, category, stock, text query) and multi-field sorting using JpaSpecificationExecutor.
+- [x] **Dynamic Catalog Search:** Multi-criteria filtering (price range, category, stock, text query) and multi-field sorting using JpaSpecificationExecutor.
 - [ ] **Security & RBAC:** Stateless JWT authentication with refresh tokens and role-based authorization (ROLE_CUSTOMER, ROLE_ADMIN).
 - [ ] **High-Concurrency Inventory:** Pessimistic locking (PESSIMISTIC_WRITE) to prevent overselling race conditions.
 - [ ] **Order State Machine:** Explicit order lifecycle transitions (CREATED -> PENDING_PAYMENT -> PAID -> PROCESSING -> SHIPPED -> DELIVERED).
