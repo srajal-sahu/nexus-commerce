@@ -1,12 +1,13 @@
-﻿# 🛒 NexusCommerce — Enterprise E-Commerce Platform Backend
+# 🛒 NexusCommerce — Enterprise E-Commerce Platform Backend
 
 [![Java](https://img.shields.io/badge/Java-21%20LTS-orange.svg)](https://www.oracle.com/java/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4.3-brightgreen.svg)](https://spring.io/projects/spring-boot)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.1.1-brightgreen.svg)](https://spring.io/projects/spring-boot)
 [![Spring Data JPA](https://img.shields.io/badge/Spring%20Data-JPA-blue.svg)](https://spring.io/projects/spring-data-jpa)
+[![Hibernate](https://img.shields.io/badge/Hibernate-7.4-darkblue.svg)](https://hibernate.org/)
 [![OpenAPI](https://img.shields.io/badge/OpenAPI-3.0-green.svg)](https://swagger.io/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
-> A production-grade, highly scalable E-Commerce backend platform built with **Spring Boot 3.4+** and **Java 21**, engineered using clean layered architecture, dynamic JPA specifications, robust concurrency controls, and real payment gateway integration.
+> A production-grade, highly scalable E-Commerce backend platform built with **Spring Boot 4.1.1** (Spring Framework 7) and **Java 21**, engineered using clean layered architecture, dynamic JPA specifications, robust concurrency controls, and real payment gateway integration.
 
 ---
 
@@ -30,7 +31,7 @@ src/main/java/com/nexus/commerce/
 
 ## ✨ Key Enterprise Capabilities
 
-- [x] **Project Foundation:** Spring Boot 3.4.3 on Java 21 LTS with Maven Wrapper.
+- [x] **Project Foundation:** Spring Boot 4.1.1 on Java 21 LTS with Maven Wrapper.
 - [x] **Interactive Documentation:** OpenAPI 3 & Swagger UI at /swagger-ui.html.
 - [x] **Health & Monitoring:** Spring Boot Actuator endpoints enabled.
 - [ ] **Dynamic Catalog Search:** Multi-criteria filtering (price range, category, stock, text query) and multi-field sorting using JpaSpecificationExecutor.
